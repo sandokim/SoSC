@@ -9,6 +9,7 @@ The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.i
 
 ### Mip-NeRF 360: Dataset Pt.1 (360_v2.zip) / Dataset Pt.2 (360_extra_scenes.zip)
 
+#### Dataset Pt.1
 ```
 360_v2/
 ├── stump/
@@ -92,7 +93,38 @@ The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.i
 └── flowers.txt
 ```
 
-
+#### Dataset Pt.2
+```
+360_extra_scenes/
+├── treehill/
+│ ├── sparse/
+│ │ └── 0/
+│ │ ├── points3D.bin
+│ │ ├── images.bin
+│ │ └── cameras.bin
+│ ├── images/
+│ │ ├── _DSC9003.JPG
+│ │ ├── _DSC9004.JPG
+│ │ └── ...
+│ ├── images_2/
+│ ├── images_4/
+│ ├── images_8/
+│ └── poses_bounds.npy
+├── flowers/
+│ ├── sparse/
+│ │ └── 0/
+│ │ ├── points3D.bin
+│ │ ├── images.bin
+│ │ └── cameras.bin
+│ ├── images/
+│ │ ├── _DSC9040.JPG
+│ │ ├── _DSC9041.JPG
+│ │ └── ...
+│ ├── images_2/
+│ ├── images_4/
+│ ├── images_8/
+│ └── poses_bounds.npy
+```
 
 You can find our SfM data sets for Tanks&Temples and Deep Blending [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip). 
 ### Tanks & Temples and Deep Blending Dataset Structure 
