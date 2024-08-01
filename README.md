@@ -7,6 +7,93 @@ We recommend to keep this behavior, but you may force training to use your highe
 
 The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.info/mipnerf360/). 
 
+### Mip-NeRF 360: Dataset Pt.1 (360_v2.zip) / Dataset Pt.2 (360_extra_scenes.zip)
+
+```
+360_v2/
+├── stump/
+│   ├── sparse/
+│   │   └── 0/
+│   │       ├── points3D.bin
+│   │       ├── images.bin
+│   │       └── cameras.bin
+│   ├── images/
+│   ├── images_2/
+│   ├── images_4/
+│   ├── images_8/
+│   └── poses_bounds.npy
+├── room/
+│   ├── sparse/
+│   │   └── 0/
+│   │       ├── points3D.bin
+│   │       ├── images.bin
+│   │       └── cameras.bin
+│   ├── images/
+│   ├── images_2/
+│   ├── images_4/
+│   ├── images_8/
+│   └── poses_bounds.npy
+├── kitchen/
+│   ├── sparse/
+│   │   └── 0/
+│   │       ├── points3D.bin
+│   │       ├── images.bin
+│   │       └── cameras.bin
+│   ├── images/
+│   ├── images_2/
+│   ├── images_4/
+│   ├── images_8/
+│   └── poses_bounds.npy
+├── garden/
+│   ├── sparse/
+│   │   └── 0/
+│   │       ├── points3D.bin
+│   │       ├── images.bin
+│   │       └── cameras.bin
+│   ├── images/
+│   ├── images_2/
+│   ├── images_4/
+│   ├── images_8/
+│   └── poses_bounds.npy
+├── counter/
+│   ├── sparse/
+│   │   └── 0/
+│   │       ├── points3D.bin
+│   │       ├── images.bin
+│   │       └── cameras.bin
+│   ├── images/
+│   ├── images_2/
+│   ├── images_4/
+│   ├── images_8/
+│   └── poses_bounds.npy
+├── bonsai/
+│   ├── sparse/
+│   │   └── 0/
+│   │       ├── points3D.bin
+│   │       ├── images.bin
+│   │       └── cameras.bin
+│   ├── images/
+│   ├── images_2/
+│   ├── images_4/
+│   ├── images_8/
+│   └── poses_bounds.npy
+├── bicycle/
+│   ├── sparse/
+│   │   └── 0/
+│   │       ├── points3D.bin
+│   │       ├── images.bin
+│   │       └── cameras.bin
+│   ├── images/
+│   ├── images_2/
+│   ├── images_4/
+│   ├── images_8/
+│   └── poses_bounds.npy
+├── treehill.txt
+└── flowers.txt
+```
+
+
+
 You can find our SfM data sets for Tanks&Temples and Deep Blending [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip). 
 ### Tanks & Temples and Deep Blending Dataset Structure 
 ```
