@@ -9,6 +9,8 @@ We recommend to keep this behavior, but you may force training to use your highe
 
 The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.info/mipnerf360/). 
 
+If you run the original `gaussian_splatting/train.py`, it will automatically generate SfM point cloud for the target scene located at `sparse/0/points3D.ply`.
+
 ### Dataset Pt.1
 ```
 360_v2/
