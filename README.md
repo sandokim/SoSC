@@ -5,11 +5,11 @@ Note that similar to MipNeRF360, we target images at resolutions in the 1-1.6K p
 For convenience, arbitrary-size inputs can be passed and will be automatically resized if their width exceeds 1600 pixels. 
 We recommend to keep this behavior, but you may force training to use your higher-resolution images by setting -r 1.
 
+## Mip-NeRF 360: Dataset Pt.1 (360_v2.zip) / Dataset Pt.2 (360_extra_scenes.zip)
+
 The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.info/mipnerf360/). 
 
-### Mip-NeRF 360: Dataset Pt.1 (360_v2.zip) / Dataset Pt.2 (360_extra_scenes.zip)
-
-#### Dataset Pt.1
+### Dataset Pt.1
 ```
 360_v2/
 ├── stump/
@@ -93,7 +93,7 @@ The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.i
 └── flowers.txt
 ```
 
-#### Dataset Pt.2
+### Dataset Pt.2
 ```
 360_extra_scenes/
 ├── treehill/
@@ -126,8 +126,10 @@ The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.i
 │ └── poses_bounds.npy
 ```
 
+## Tanks & Temples and Deep Blending Dataset Structure 
+
 You can find our SfM data sets for Tanks&Temples and Deep Blending [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip). 
-### Tanks & Temples and Deep Blending Dataset Structure 
+
 ```
 tandt_db/
 ├── db/
