@@ -185,3 +185,6 @@ tandt_db/
 If you do not provide an output model directory (-m), trained models are written to folders with randomized unique names inside the output directory. 
 At this point, the trained models may be viewed with the real-time viewer (see further below).
 
+### forward-facing scenes from the DTU dataset
+
+All models are trained with 3 input images.
