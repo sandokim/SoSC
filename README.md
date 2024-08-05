@@ -197,7 +197,7 @@ All models are trained with 3 input images.
 
 # Implementation Details
 
-In practice, we optimize the zeroth-order SH for the first 1000 iterations, which equates to a simple diffuse color representation $c \in \mathcal{R}^3$, and we introduce 1 band every 1000 iterations untill all 4 bands of SH are represented.
+In practice, we optimize the zeroth-order SH for the first 1000 iterations, which equates to a simple diffuse color representation $c \in \mathbb{R}^3$, and we introduce 1 band every 1000 iterations untill all 4 bands of SH are represented.
 
 
 
