@@ -193,3 +193,12 @@ All models are trained with 3 input images.
 ### For depth maps, the ground truth is the output of the Monodepth model.
 
 
+
+
+
+# Supplement
+
+Number of Training views Fig. K provides a study of how our model performs relative to base 3DGS as the number of training views is changed. We test 8, 10, 12, 14, 16, and 18 views. Across all metrics, PSNR, SSIM, and LPIPS, our model consistently outperforms Base 3DGS in all settings.
+
+Fig. K: Ablation study on the number of views used to train models. Our models consistently outperform Base 3DGS on PSNR, SSIM, and LPIPS when we use as few as 8 or as many as 18 images for trianing.
+
