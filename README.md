@@ -212,5 +212,6 @@ In practice, we optimize the zeroth-order SH for the first 1000 iterations, whic
 ### Paper Terminology
 
 - resorts to
+- The scale-invariant depth constraint is strong for real-world coarse depth maps from pre-trained depth models or consumer-level depth sensors due to wide-range depth distances in the wild. (scale-invariant --> maintain the line length in the world, no perspective transformation but affine transformation)
 
 
