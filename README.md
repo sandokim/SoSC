@@ -207,3 +207,10 @@ In practice, we optimize the zeroth-order SH for the first 1000 iterations, whic
 
 **Fig. K:** Ablation study on the number of views used to train models. Our models consistently outperform Base 3DGS on PSNR, SSIM, and LPIPS when we use as few as 8 or as many as 18 images for trianing.
 
+
+
+### Paper Terminology
+
+- resorts to
+
+
