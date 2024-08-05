@@ -189,6 +189,8 @@ At this point, the trained models may be viewed with the real-time viewer (see f
 
 All models are trained with 3 input images.
 
+On the DTU dataset, the background of these scenes is a white table or a black background, which has few textures. As mentioned in RegNeRF we mask the background during inference to avoid background bias.
+
 
 ### For depth maps, the ground truth is the output of the Monodepth model.
 
