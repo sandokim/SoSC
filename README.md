@@ -214,4 +214,4 @@ In practice, we optimize the zeroth-order SH for the first 1000 iterations, whic
 - resorts to
 - The scale-invariant depth constraint is strong for real-world coarse depth maps from pre-trained depth models or consumer-level depth sensors due to wide-range depth distances in the wild. (scale-invariant --> maintain the line length in the world, no perspective transformation but affine transformation)
 - a simple yet effective method that distills depth priors from pre-trained depth models [41] or inaccurate depth maps from consumer-level depth sensors
-
+- Directly scaling the coarse depth maps to a NeRF [17, 65] leads to inconsistent geometry against the expected depth of the NeRF.
