@@ -217,11 +217,11 @@ DTU
     <model_id>
     |-- cameras_xxx.npz    # camera parameters
     |-- image
-        |-- 000000.png        # target image for each view
+        |-- 000000.png        # target image for each view, 400x300
         |-- 000001.png
         ...
     |-- mask
-        |-- 000000.png        # target mask each view (For unmasked setting, set all pixels as 255)
+        |-- 000000.png        # target mask each view, 1600x1200  (For unmasked setting, set all pixels as 255)
         |-- 000001.png
         ...
     |-- depth
