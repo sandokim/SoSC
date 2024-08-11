@@ -224,18 +224,9 @@ DTU
         |-- 000000.png        # target mask each view (For unmasked setting, set all pixels as 255)
         |-- 000001.png
         ...
-  
-  |-- mask
-    <model_id>
-    |--  mask
-        |-- 000.png
-        |-- 001.png
-        ...
-    |--  cameras.npz
-    |--  camera_linear_init.npz
-  
-  |-- depth
-    <model_id>
+    |-- depth
+        |-- 000000.png     
+        |-- 000001.png
 
 
 ```
