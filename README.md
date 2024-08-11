@@ -194,8 +194,51 @@ On the DTU dataset, the background of these scenes is a white table or a black b
 
 ### For depth maps, the ground truth is the output of the Monodepth model.
 
+--------------------------------------
+
+## Datasets
 
 
+<details>
+  <summary><b>DTU</b></summary>
+
+* Images: We use the DTU dataset, processed by PixelNeRF, where the images are processed and resized to 300 x 400.
+Download the data [here](https://drive.google.com/drive/folders/1PsT3uKwqHHD2bEEHkIXB99AlIjtmrEiR?usp=sharing). 
+
+* Mask Data: For evaluation, we report also masked metrics. For this, we use the object masks provided by DVR, IDR and RegNeRF. [RegNeRF](https://github.com/google-research/google-research/tree/master/regnerf) provides the full mask data (for the test splits), which you can download [here](https://drive.google.com/file/d/1Yt5T3LJ9DZDiHbtd9PDFNHqJAd7wt-_E/view?usp=sharing). 
+
+* Ground-truth depth maps: For evaluation, we report the depth error. For this, we download the [depth maps](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/cascade-stereo/CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip). They are extracted from [MVSNeRF](https://github.com/apchenstu/mvsnerf#:~:text=training%20data%20and-,Depth_raw,-from%20original%20MVSNet).  
+
+</details>
+
+
+<details>
+  <summary><b>LLFF</b></summary>
+
+The LLFF real-world data can be found in the [NeRF Google Drive](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1).
+For convenience, you can download them with the following script: (under this repo)
+```bash
+gdown --id 16VnMcF1KJYxN9QId6TClMsZRahHNMW5g # download nerf_llff_data.zip
+unzip nerf_llff_data.zip
+rm -f nerf_llff_data.zip
+mv nerf_llff_data data/llff
+```
+
+</details>
+
+<details>
+  <summary><b>Replica</b></summary>
+
+You can download the replica dataset with the following script:
+```bash
+# you can also download the Replica.zip manually through
+# link: https://caiyun.139.com/m/i?1A5Ch5C3abNiL password: v3fY (the zip is split into smaller zips because of the size limitation of caiyun)
+wget https://cvg-data.inf.ethz.ch/nice-slam/data/Replica.zip
+unzip Replica.zip
+  ```
+</details>
+
+--------------------------------------
 
 # Implementation Details
 
