@@ -220,6 +220,9 @@ DTU
         |-- 000000.png        # target image for each view, 400x300
         |-- 000001.png
         ...
+
+    |-- new_val.lst # Used for val/test dataset split for gaussian splatting
+
     |-- mask
         |-- 000000.png        # target mask each view, 1600x1200  (For unmasked setting, set all pixels as 255)
         |-- 000001.png
