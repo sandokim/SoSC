@@ -211,6 +211,34 @@ Download the data [here](https://drive.google.com/drive/folders/1PsT3uKwqHHD2bEE
 
 </details>
 
+```
+DTU
+  |-- images
+    <model_id>
+    |-- cameras_xxx.npz    # camera parameters
+    |-- image
+        |-- 000000.png        # target image for each view
+        |-- 000001.png
+        ...
+    |-- mask
+        |-- 000000.png        # target mask each view (For unmasked setting, set all pixels as 255)
+        |-- 000001.png
+        ...
+  
+  |-- mask
+    <model_id>
+    |--  mask
+        |-- 000.png
+        |-- 001.png
+        ...
+    |--  cameras.npz
+    |--  camera_linear_init.npz
+  
+  |-- depth
+    <model_id>
+
+
+```
 
 <details>
   <summary><b>LLFF</b></summary>
