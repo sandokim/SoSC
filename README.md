@@ -1,6 +1,16 @@
 # SoSC
 CVPR2025
 
+## Environment Setups
+Conda environment:
+```bash
+conda env create --file environment.yml
+conda activate SparseGS
+```
+We suggest using **CUDA 12** but CUDA 11 should work. You may need to change the cudatoolkit and pytorch version in the .yml file. 
+
+-----------
+
 Note that similar to MipNeRF360, we target images at resolutions in the 1-1.6K pixel range. 
 For convenience, arbitrary-size inputs can be passed and will be automatically resized if their width exceeds 1600 pixels. 
 We recommend to keep this behavior, but you may force training to use your higher-resolution images by setting -r 1.
